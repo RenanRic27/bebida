@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Formulário em MVC</title>
+  </head>
+  <body>
+    
+    <h1 class="text-center">Olá, me diga sua idade!</h1>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4">
+                <form id="form">
+                    <div class="form-group mt-5">
+                        <label>Digite seu nome</label>
+                        <input type="text" name="NOME" id="NOME" class="form-control">
+                        <label>Digite sua idade</label>
+                        <input type="date" name="IDADE" id="IDADE" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Selecione alguma bebida</label>
+                        <select name="BEBIDA" id="BEBIDA" class="form-control">
+                            <option value="">Selecione...</option>
+                            <option value="1">Coca cola</option>
+                            <option value="2">Cerveja</option>
+                            <option value="3">Guarana Antartica</option>
+                        </select>
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <div class="col-12 col-sm-8 col-md-6">
+                            <button class="btn btn-success btn-block btn-send">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Local para retorno do serviço-->
+        <div class="row justify-content-center" id="retorno">
+          
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../controle/fucntion.js"></script>
+  </body>
+</html>
